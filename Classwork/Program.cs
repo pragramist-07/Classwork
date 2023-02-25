@@ -85,24 +85,44 @@
 
 #endregion
 #region 9 misol
-int j = 0;
-int n = 100;
-while (n <= 999)
-{
-    if ( n % 3 == 0 && n % 7 == 0 )
-    {
-        Console.WriteLine( n );
-        j = j + n;
-    }
-    n++;
-}
-Console.WriteLine(j);
-
-
+//int j = 0;
+//int n = 100;
+//while (n <= 999)
+//{
+//    if ( n % 3 == 0 && n % 7 == 0 )
+//    {
+//        Console.WriteLine( n );
+//        j = j + n;
+//    }
+//    n++;
+//}
+//Console.WriteLine(j);
 #endregion
-
-
-
-
+#region MASSIV
+//string[]oilaazolar = { "Dadam", "Oyim", "Opam", "Uzim" };
+//for (int i = 0; i < oilaazolar.Length; i++)
+//{
+//    Console.WriteLine(oilaazolar[i]);
+//}
+////double[] C = { 0.005, 1.234, 12.5, 13.5, 10.6 };
+#endregion
+#region
+//Console.WriteLine(" Massiv ulchamini kiritung");
+//int n = int.Parse(Console.ReadLine());
+//int j = 0;
+//int[] sonlar= new int[n];
+//int i;
+//for (i = 0;i < n; i = i + 1)
+//{
+//    Console.WriteLine(" sonlar [ " + i + " ] = ");
+//    sonlar[i] = Convert.ToInt32(Console.ReadLine());
+//}
+//Console.WriteLine("==========================================");
+//for ( i = 0;i < n;i = i + 1)
+//{
+//    Console.WriteLine("sonlar [ " + i + " ] = " + sonlar[i]);
+        
+//}
+#endregion
 
 
